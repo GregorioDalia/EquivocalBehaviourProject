@@ -1,0 +1,5 @@
+Analysis for EQUIVOCAL_Tecnics_4170f957ff9715927ce31fe4f9017bda6398adc58aedd4cacd8f005799cc39b9_Windows_10_64_bit.txt
+Privilege Manipulation
+Control Evasion and Analysis Avoidance
+System Analysis and Resource Discovery
+Advanced OS Utility Exploitation

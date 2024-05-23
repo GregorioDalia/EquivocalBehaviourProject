@@ -1,0 +1,3 @@
+Analysis for EQUIVOCAL_Tecnics_69eec502a5423f3e947465d3eaf8d1df9ccb8477a27c361be314e21671d71205_Windows_7_64_bit.txt
+Advanced OS Utility Exploitation
+Network Enumeration and Analysis

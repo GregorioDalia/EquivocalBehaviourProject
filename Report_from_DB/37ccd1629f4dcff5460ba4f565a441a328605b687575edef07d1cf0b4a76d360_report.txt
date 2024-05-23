@@ -1,0 +1,95 @@
+[
+    {
+        "analysis_start_time": "2020-10-01T17:04:51+00:00",
+        "av_detect": 0,
+        "certificates": [],
+        "certificates_validation_message": null,
+        "classification_tags": [],
+        "compromised_hosts": [],
+        "crowdstrike_ai": {
+            "analysis_related_urls": [],
+            "executable_process_memory_analysis": []
+        },
+        "dll_characteristics": [],
+        "domains": [],
+        "entrypoint": null,
+        "entrypoint_section": null,
+        "environment_description": "Static Analysis",
+        "environment_id": null,
+        "error_origin": null,
+        "error_type": null,
+        "extracted_files": [],
+        "file_metadata": null,
+        "hosts": [],
+        "image_base": null,
+        "image_file_characteristics": [],
+        "imphash": null,
+        "interesting": false,
+        "is_certificates_valid": null,
+        "job_id": null,
+        "machine_learning_models": [],
+        "major_os_version": null,
+        "md5": "c6927b44bc01ce06674db9c8c122c9bd",
+        "minor_os_version": null,
+        "mitre_attcks": [],
+        "network_mode": "default",
+        "processes": [],
+        "sha1": "ede67cd6459d979f0360f205b3ba4e6e84fb5534",
+        "sha256": "37ccd1629f4dcff5460ba4f565a441a328605b687575edef07d1cf0b4a76d360",
+        "sha512": "5a5f29bfcdb8adc2c210a5810df2512b346aa056f1bef84c12ee163233b3ebcbb212da97e10819c49f59cd1f6b429b1ee21e9fe980b09ea3d9f6a92821c248ef",
+        "signatures": [],
+        "size": 134744,
+        "ssdeep": null,
+        "state": "SUCCESS",
+        "submissions": [
+            {
+                "created_at": "2022-06-19T23:41:17+00:00",
+                "filename": "file",
+                "submission_id": "62afb41d59221a4daf77c3fb",
+                "url": null
+            },
+            {
+                "created_at": "2020-10-05T19:20:49+00:00",
+                "filename": "file",
+                "submission_id": "5f7b7211d2f494624942c8f3",
+                "url": null
+            },
+            {
+                "created_at": "2020-10-02T10:37:39+00:00",
+                "filename": "file",
+                "submission_id": "5f7702f3f2617d42b64d04e7",
+                "url": null
+            },
+            {
+                "created_at": "2020-10-01T20:03:33+00:00",
+                "filename": "file",
+                "submission_id": "5f763615871085488b5318bc",
+                "url": null
+            },
+            {
+                "created_at": "2020-10-01T17:04:51+00:00",
+                "filename": "file",
+                "submission_id": "5f760c33fc8d4a344a3bc3eb",
+                "url": null
+            }
+        ],
+        "submit_name": "file",
+        "subsystem": null,
+        "tags": [],
+        "target_url": null,
+        "threat_level": 0,
+        "threat_score": null,
+        "total_network_connections": 0,
+        "total_processes": 0,
+        "total_signatures": 0,
+        "type": "PE32 executable (GUI) Intel 80386 Mono/.Net assembly, for MS Windows",
+        "type_short": [
+            "peexe",
+            "assembly",
+            "executable"
+        ],
+        "url_analysis": false,
+        "verdict": "no specific threat",
+        "vx_family": null
+    }
+]

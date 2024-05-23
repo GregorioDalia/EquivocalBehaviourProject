@@ -1,0 +1,22 @@
+Number  of occurence of  mitre_attcks: 21
+attck_id: T1106
+attck_id: T1548
+attck_id: T1134.003
+attck_id: T1027.002
+attck_id: T1548
+attck_id: T1134.003
+attck_id: T1497
+attck_id: T1622
+attck_id: T1056.004
+attck_id: T1124
+attck_id: T1082
+attck_id: T1083
+attck_id: T1012
+attck_id: T1614.001
+attck_id: T1057
+attck_id: T1497
+attck_id: T1622
+attck_id: T1056.004
+attck_id: T1114
+attck_id: T1573
+attck_id: T1486

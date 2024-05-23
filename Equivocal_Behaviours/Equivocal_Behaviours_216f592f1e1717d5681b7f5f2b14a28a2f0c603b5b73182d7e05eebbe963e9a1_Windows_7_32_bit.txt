@@ -1,0 +1,2 @@
+Analysis for EQUIVOCAL_Tecnics_216f592f1e1717d5681b7f5f2b14a28a2f0c603b5b73182d7e05eebbe963e9a1_Windows_7_32_bit.txt
+Advanced OS Utility Exploitation
