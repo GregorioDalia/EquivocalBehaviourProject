@@ -1,0 +1,3 @@
+Number  of occurence of  mitre_attcks: 2
+attck_id: T1116
+attck_id: T1124

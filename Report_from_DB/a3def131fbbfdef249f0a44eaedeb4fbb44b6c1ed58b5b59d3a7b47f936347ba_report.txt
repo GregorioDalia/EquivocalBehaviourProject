@@ -1,0 +1,71 @@
+[
+    {
+        "analysis_start_time": "2020-10-09T15:04:48+00:00",
+        "av_detect": 0,
+        "certificates": [],
+        "certificates_validation_message": null,
+        "classification_tags": [],
+        "compromised_hosts": [],
+        "crowdstrike_ai": {
+            "analysis_related_urls": [],
+            "executable_process_memory_analysis": []
+        },
+        "dll_characteristics": [],
+        "domains": [],
+        "entrypoint": null,
+        "entrypoint_section": null,
+        "environment_description": "Static Analysis",
+        "environment_id": null,
+        "error_origin": null,
+        "error_type": null,
+        "extracted_files": [],
+        "file_metadata": null,
+        "hosts": [],
+        "image_base": null,
+        "image_file_characteristics": [],
+        "imphash": null,
+        "interesting": false,
+        "is_certificates_valid": null,
+        "job_id": null,
+        "machine_learning_models": [],
+        "major_os_version": null,
+        "md5": "2192dacc95135e7b12764b13f8869ad3",
+        "minor_os_version": null,
+        "mitre_attcks": [],
+        "network_mode": "default",
+        "processes": [],
+        "sha1": "cd1df2be6c8b155d942babe45b050229150fef98",
+        "sha256": "a3def131fbbfdef249f0a44eaedeb4fbb44b6c1ed58b5b59d3a7b47f936347ba",
+        "sha512": "35cbf9e141bee840f6184bf460645caaeaf06d9a015a2339187922400bec8ba37483262223082c680c504433bbfeb1774d93f74d5e53c845c6b24cb889c163d6",
+        "signatures": [],
+        "size": 528080,
+        "ssdeep": null,
+        "state": "SUCCESS",
+        "submissions": [
+            {
+                "created_at": "2020-10-09T15:04:48+00:00",
+                "filename": "file",
+                "submission_id": "5f807c103acd08216e6acba3",
+                "url": null
+            }
+        ],
+        "submit_name": "file",
+        "subsystem": null,
+        "tags": [],
+        "target_url": null,
+        "threat_level": 0,
+        "threat_score": null,
+        "total_network_connections": 0,
+        "total_processes": 0,
+        "total_signatures": 0,
+        "type": "PE32+ executable (DLL) (GUI) x86-64, for MS Windows",
+        "type_short": [
+            "pedll",
+            "64bits",
+            "executable"
+        ],
+        "url_analysis": false,
+        "verdict": "no specific threat",
+        "vx_family": null
+    }
+]

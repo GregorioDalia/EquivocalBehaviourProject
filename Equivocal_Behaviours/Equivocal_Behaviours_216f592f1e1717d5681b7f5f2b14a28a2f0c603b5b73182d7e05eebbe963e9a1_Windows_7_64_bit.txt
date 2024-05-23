@@ -1,0 +1,6 @@
+Analysis for EQUIVOCAL_Tecnics_216f592f1e1717d5681b7f5f2b14a28a2f0c603b5b73182d7e05eebbe963e9a1_Windows_7_64_bit.txt
+Scripting and Code Execution
+Control Evasion and Analysis Avoidance
+Logging Evasion and Indirect Software Execution
+Advanced OS Utility Exploitation
+System Analysis and Resource Discovery
