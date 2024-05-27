@@ -29,14 +29,14 @@ for report_tec in os.listdir(Folder_Equivocal_Tecnics):
                         analysis_result=analysis_result.split(".")[0]+"\n"
                     analysis_result = analysis_result.strip()
 
-                    trovato = False
+                    find = False
 
-                    for comportamento in Equivocal_Behaviours.keys():
-                        if analysis_result in Equivocal_Behaviours.get(comportamento):
-                            trovato=True
-                            if comportamento not in unique_behaviours_results:
-                                output_file.write(f"{comportamento}\n")
-                                unique_behaviours_results.add(comportamento)
+                    for Behaviour in Equivocal_Behaviours.keys():
+                        if analysis_result in Equivocal_Behaviours.get(Behaviour):
+                            find=True
+                            if Behaviour not in unique_behaviours_results:
+                                output_file.write(f"{Behaviour}\n")
+                                unique_behaviours_results.add(Behaviour)
 
-                    if not trovato:
+                    if not find:
                         output_file.write("ERROR\n")
