@@ -1,8 +1,0 @@
-Analysis for EQUIVOCAL_Tecnics_vlc_Windows_10_64.txt
-Advanced OS Utility Exploitation
-Scripting and Code Execution
-Logging Evasion and Indirect Software Execution
-Control Evasion and Analysis Avoidance
-Task Scheduling and System Automation
-System Analysis and Resource Discovery
-Software Extension and Interaction

@@ -1,2 +1,0 @@
-Analysis for EQUIVOCAL_Tecnics_5134ac057a2656a8271474ede0e846dc79e6adcb600596644c5d801158ac13ae_Windows_7_64_bit.txt
-Network Enumeration and Analysis

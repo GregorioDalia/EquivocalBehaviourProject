@@ -1,3 +1,0 @@
-Analysis for EQUIVOCAL_Tecnics_50d325732bbaafde312ae27e99bca50a1a82a1afe19e5765640c59800e6a2ce2_Windows_7_32_bit.txt
-Advanced OS Utility Exploitation
-System Analysis and Resource Discovery
