@@ -3,7 +3,6 @@ import subprocess
 import pandas as pd
 import time
 
-
 Dataset = "dataset.csv"
 df = pd.read_csv(Dataset)
 
@@ -70,7 +69,6 @@ for sha_value in df['sha']:
     else:
         print(sha_value + " MATCH!!!")
         count = count + 1
-        # print(output_search_SHA)
         with open(Sha_Present_in_HA, 'a') as sha_sottomessi_file:
             sha_sottomessi_file.write(sha_value + "\n")
 

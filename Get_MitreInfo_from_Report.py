@@ -3,7 +3,6 @@ import json
 
 Folder_Reports = r"Reports"
 Folder_Mitre_Signatures= r"Mitre_Signatures"
-# Ottieni la lista dei file nella cartella
 repor_list = os.listdir(Folder_Reports)
 
 for report in repor_list:

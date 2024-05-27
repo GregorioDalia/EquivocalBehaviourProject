@@ -42,7 +42,6 @@ for composed_report in list_reportsDB:
             nfilereport_SINGOLO_path = os.path.join(Folder_Reports, Name_report)
 
             with open(nfilereport_SINGOLO_path, 'w') as nfilereport_SINGOLO:
-                #nfilereport_SINGOLO.write(str(reportpuntuale))
                 json.dump(single_report, nfilereport_SINGOLO, indent=4)
 
 
