@@ -11,11 +11,11 @@ Sha_Present_in_HA = "Sha_Present_in_HA.txt"
 Folder_Report_from_DB = "Report_from_DB"
 
 
-with open(Sha_not_in_HA, 'r') as sha_non_sottomessi_file:
-    sha_to_submit_set = set(sha_non_sottomessi_file.read().splitlines())
+with open(Sha_not_in_HA, 'r') as sha_not_submited_file:
+    sha_to_submit_set = set(sha_not_submited_file.read().splitlines())
 
-with open(Sha_Present_in_HA, 'r') as sha_sottomessi_file:
-    sha_done_set = set(sha_sottomessi_file.read().splitlines())
+with open(Sha_Present_in_HA, 'r') as sha_submitted_file:
+    sha_done_set = set(sha_submitted_file.read().splitlines())
 
 db_len  = len(df['sha'])
 i = 0
@@ -63,14 +63,14 @@ for sha_value in df['sha']:
 
     if "[]" in output_search_SHA.split('\n')[0]:
         print(sha_value + " is not present in H.A. Database")
-        with open(Sha_not_in_HA, 'a') as sha_non_sottomessi_file:
-            sha_non_sottomessi_file.write(sha_value + "\n")
+        with open(Sha_not_in_HA, 'a') as sha_not_submited_file:
+            sha_not_submited_file.write(sha_value + "\n")
 
     else:
         print(sha_value + " MATCH!!!")
         count = count + 1
-        with open(Sha_Present_in_HA, 'a') as sha_sottomessi_file:
-            sha_sottomessi_file.write(sha_value + "\n")
+        with open(Sha_Present_in_HA, 'a') as sha_submitted_file:
+            sha_submitted_file.write(sha_value + "\n")
 
         try:
             with open(os.path.join(Folder_Report_from_DB, sha_value

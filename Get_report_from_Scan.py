@@ -15,13 +15,13 @@ for File_Name in scans_list:
 
     print(f"Check {job_id} for {File_Name} \n")
 
-    comando_report = f'cd VxAPI-master && python vxapi.py report_get_summary {job_id}'
+    task_report = f'cd VxAPI-master && python vxapi.py report_get_summary {job_id}'
 
     try:
-        output_report = subprocess.check_output(comando_report, shell=True, text=True)
+        output_report = subprocess.check_output(task_report, shell=True, text=True)
     except Exception as e:
         print("utf-8")
-        output_report = subprocess.check_output(comando_report, shell=True, encoding="utf-8")
+        output_report = subprocess.check_output(task_report, shell=True, encoding="utf-8")
 
     Final_report = output_report.replace('\033[0m', '')
     Report_json = json.loads(Final_report)
