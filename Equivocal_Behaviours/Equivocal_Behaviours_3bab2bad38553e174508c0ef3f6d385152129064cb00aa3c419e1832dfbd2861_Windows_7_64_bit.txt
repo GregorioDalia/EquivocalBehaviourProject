@@ -1,2 +1,0 @@
-Analysis for EQUIVOCAL_Tecnics_3bab2bad38553e174508c0ef3f6d385152129064cb00aa3c419e1832dfbd2861_Windows_7_64_bit.txt
-Control Evasion and Analysis Avoidance

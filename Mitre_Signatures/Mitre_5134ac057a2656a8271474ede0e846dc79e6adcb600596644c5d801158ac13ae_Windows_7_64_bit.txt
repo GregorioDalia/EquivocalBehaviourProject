@@ -1,5 +1,0 @@
-Number  of occurence of  mitre_attcks: 4
-attck_id: T1050
-attck_id: T1050
-attck_id: T1016
-attck_id: T1046

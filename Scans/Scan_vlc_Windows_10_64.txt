@@ -1,6 +1,0 @@
-{
-    "environment_id": 160,
-    "job_id": "6584174e8e7169b5fc08d5a4",
-    "sha256": "a5a90f650935e58f5c4826ac9a75a767ab739ef10b97bb07c8fd790021b008cd",
-    "submission_id": "664f0fb59531872cc4017bb0"
-}
