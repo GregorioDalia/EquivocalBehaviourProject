@@ -36,7 +36,7 @@ Finally, the ‘Generate_Equivocal_behaviours.py’ script, analysing each file 
 The files "list_sta_malware.txt" and "list_sha_trusted" are the list of the sha codes used for the results section of paper.
 
 ## Dependences
-The project was written in python 3.10 using this mandatory libreries:
+The project was written in python 3.10 using the following mandatory libreries:
  
 1)colorama	0.4.6
 2)requests	2.32.2
