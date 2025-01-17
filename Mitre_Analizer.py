@@ -12,6 +12,8 @@ for line in content:
     Equivocal_tecnics.add(clean_line)
 
 Folder_Equivocal_Tecnics = "Equivocal_Tecnics"
+os.makedirs(Folder_Equivocal_Tecnics, exist_ok=True)
+
 
 Folder_Mitre_Signatures = "Mitre_Signatures"
 

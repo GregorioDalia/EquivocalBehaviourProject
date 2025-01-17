@@ -4,6 +4,8 @@ import json
 Folder_Reports = r"Reports"
 Folder_Mitre_Signatures= r"Mitre_Signatures"
 repor_list = os.listdir(Folder_Reports)
+os.makedirs(Folder_Mitre_Signatures, exist_ok=True)
+
 
 for report in repor_list:
 

@@ -10,6 +10,12 @@ Sha_not_in_HA = "Sha_not_in_HA.txt"
 Sha_Present_in_HA = "Sha_Present_in_HA.txt"
 Folder_Report_from_DB = "Report_from_DB"
 
+os.makedirs(Folder_Report_from_DB, exist_ok=True)
+
+
+# Creazione dei file se non esistono
+open(Sha_not_in_HA, 'a').close()
+open(Sha_Present_in_HA, 'a').close()
 
 with open(Sha_not_in_HA, 'r') as sha_not_submited_file:
     sha_to_submit_set = set(sha_not_submited_file.read().splitlines())

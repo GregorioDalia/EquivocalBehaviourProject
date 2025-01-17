@@ -5,6 +5,7 @@ import json
 Folder_Report_from_DB = r"Report_from_DB"
 Folder_Reports = r"Reports"
 list_reportsDB =os.listdir(Folder_Report_from_DB)
+os.makedirs(Folder_Reports, exist_ok=True)
 
 
 for composed_report in list_reportsDB:

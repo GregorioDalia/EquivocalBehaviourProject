@@ -4,6 +4,8 @@ import json
 Equivocal_Behaviours_File= "EquivocalBehaviours.txt"
 
 Folder_Equivocal_Behaviours = "Equivocal_Behaviours"
+os.makedirs(Folder_Equivocal_Behaviours, exist_ok=True)
+
 Folder_Equivocal_Tecnics = "Equivocal_Tecnics"
 
 with open(Equivocal_Behaviours_File, "r") as file:
