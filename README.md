@@ -34,6 +34,8 @@ Finally, the ‘Generate_Equivocal_behaviours.py’ script, analysing each file 
 ## Dataset
 
 The files "list_sta_malware.txt" and "list_sha_trusted" are the list of the sha codes used for the results section of paper.
+The files: Reports_Linux_Goodware_list.txt,Reports_Linux_Malware_list.txt,Reports_MAC_Goodware_list.txt, Reports_MAC_Malware_list.txt are the ones used for the threat to validity section
+
 
 ## Dependences
 The project was written in python 3.10 using the following mandatory libreries:
